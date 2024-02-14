@@ -1,12 +1,7 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Manikanta - CV</title>
+		<title>Manikanta</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -29,76 +24,172 @@
 							<li class="active"><a href="generic.html">CV</a></li>
 							<li><a href="elements.html">ABOUT</a></li>
 						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/saianumalasetty" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/saianumallasetty" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-							<li><a href="Mailto:saianumalasetty26@gmail.com" class="icon solid alt fa fa-envelope"><span class="label">GitHub</span></a></li>
-						</ul>
+						<!--<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>-->
 					</nav>
 
 				<!-- Main -->
-				<div id="main">
+				<style>
+					#main 
+					.timeline {
+						position: relative;
+					}
+				
+					.timeline-card {
+						background-color: #f8f9fa;
+						border: 1px solid #d3d9de;
+						border-radius: 8px;
+						margin-bottom: 20px;
+						position: relative;
+						box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+					}
+				
+					.timeline-head {
+						padding: 20px;
+					}
+				
+					.timeline-head .arrow {
+						color: #007bff; /* Arrow color */
+						font-size: 20px;
+						margin-right: 8px;
+					}
+				
+					.timeline-head .h5 {
+						margin: 0;
+						font-size: 22px;
+						font-weight: bold;
+						color: #343a40; /* Heading color */
+					}
+				
+					.timeline-body {
+						padding: 20px;
+					}
+				
+					.text-muted {
+						color: #6c757d; /* Subtext color */
+					}
+				
+					ul {
+						margin: 0;
+						padding: 0;
+						list-style-type: none;
+					}
+				
+					ul li {
+						margin-bottom: 8px;
+						color: #495057; /* List item color */
+					}
+				
+					h6 {
+						font-size: 18px;
+						font-weight: bold;
+						color: #343a40; /* Subheading color */
+					}
+				</style>			
+				
+					<div id="main">
+						<div class="shadow-1-strong bg-white my-5 p-5" id="experience">
+							<div class="work-experience-section">
+							  <h2 class="h2 fw-light mb-4">Work Experience</h2>
+							  <div class="timeline">
+								<div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+								  <div class="timeline-head px-4 pt-3">
+									<div class="h5"><span class="arrow">&#9658;</span>Data Engineer <span class="text-muted h6">at Cross Sense Analytics | TX, USA (Remote)</span></div>
+									<div class="text-muted text-small mb-3">January 2024 - Present</div>
+									►	Extensively implemented Azure Data Factory for seamless ingestion of diverse data sources, including relational and unstructured data, and stored in data lake storage Gen2.<br>
+									►	Ability to Design a robust Pipeline and execute complex data transformations, and manipulations using ADF and PySpark with Databricks.<br>
+									►	Developed interactive business intelligence dashboards, and analytical reports in Power Bl and Looker, incorporating multiple measures to cater to the specific needs of operations, and finance teams.
+								</div>
 
-					<!-- Post -->
-						<section class="post">
-							<div class="row">
-							<div class="col-12 col-12-small">
-							<h2>Work Experience</h2>
-							<ul>
-							<li><h3>Data Analyst </br> Turbotic AdBlue, India <i>(September 2020 - July 2022)</i></h3></li>
-							<ul>
-							<li><p>Achieved a remarkable 15% increase in annual revenues, totaling $303,210, through data-driven optimization using Monte Carlo simulations and customer segmentation.</p></li>
-							<li><p>Developed Tableau dashboards for data visualization, enabling actionable insights and process improvements. </p></li>
-							<li><p>Created an inventory model using extrapolation methods and predictive analysis techniques using R to forecast the demand and reduce the dead inventory by 20%.</p></li>
-							<li><p>Collaborated with cross-functional teams using SQL queries, Python, and ML frameworks (e.g., Clustering, Decision Tree, Segmentation) to measure product/operational performance, identify behavior patterns, and test hypotheses. </p></li>
-							</ul>
-							<li><h3>Operations Analyst Intern </br> Dr. Reddy's Laboratories,  India <i>(May 2019 - July 2019)</i></h3></li>
-							<ul>
-							<li><p>Maintained and organized a weekly inventory of $1,20,000 that led to an increase in sales by 20%.</p></li>
-							<li><p>Worked on material management Systems using different tools like SAP and MES.</p></li>
-							<li><p>Managed data integrity and automated reporting tools, improving efficiency by 30%.</p></li>
-							
-						</ul>
-					</ul>
-					</section>
-					<section class="post">
-							<h2>Education</h2>
-							<h3>Master of Science, Business Analytics </br> The University of Texas at Dallas (GPA: 3.7/4.0) <i>(2022-2024)</i></h3>
-							<ul>
-							<li><p>Coursework: Database Foundation, Advanced Stats for Data Science, Business Analytics with R, Predictive Analytics, Programming for Data 
-								Science, Big Data, Prescriptive Analytics, Applied Econometrics, Applied Machine Learning, NLP, Project Management, AWS Cloud Comp.</p></li>
-							
+								 <div class="timeline-head px-4 pt-3">
+									<div class="h5"><span class="arrow">&#9658;</span>Data Analyst <span class="text-muted h6">at Turbotic AdBlue | India</span></div>
+									<div class="text-muted text-small mb-3">September 2020 - July 2022</div>
+									►	Achieved a remarkable 15% increase in annual revenues, totaling $303,210, through data-driven optimization using Monte Carlo simulations and customer segmentation.<br>
+									►	Developed Tableau dashboards for data visualization, enabling actionable insights and process improvements.<br>
+									►	Created an inventory model using extrapolation methods and predictive analysis techniques using R to forecast the demand and reduce the dead inventory by 20%.<br>
+									►	Leveraged advanced Excel techniques, including VBA and macros, and SQL functions like CTEs and window functions, to identify KPIs and SLAs and optimize customer satisfaction, enhanced business efficiency by 30%<br>
+									►   Collaborated with cross-functional teams using SQL queries, Python, and ML frameworks (e.g., Clustering, Decision Tree, Segmentation) to measure product/operational performance, identify behavior patterns, and test hypotheses.
+								</div>
 
-						</ul>
-					</section>
+								 <div class="timeline-head px-4 pt-3">
+									<div class="h5"><span class="arrow">&#9658;</span>Operations Analyst Intern <span class="text-muted h6">at Dr. Reddy's Laboratories | India</span></div>
+									<div class="text-muted text-small mb-3">May 2019 - July 2019</div>
+									►	Maintained and organized a weekly inventory of $1,20,000 that led to an increase in sales by 20%.<br>
+									►	Worked on material management Systems using different tools like SAP and MES.<br>
+									►	Managed data integrity and automated reporting tools, improving efficiency by 30%.<br>
+								</div>
 
-				</section>
-				<section class="post">
-						<h2>Languages and Tools</h2>
-						<ul>
-						<li><p>Python, R, Matlab, GIT, SQL, R, HTML</p></li>
-						<li><p>PowerBI, Docker, Pyspark, Cloud Computing, Hadoop, Hive, Impala </p></li>
-						<li><p>TensorFlow, Pytorch, Keras, Sci-kit Learn, MatplotLib, Seaborn, Numpy, Pandas, Pytorch Geometric, Sci-Py, BERT, NLTK, SpaCy </p></li>
+								 <!-- <div class="timeline-head px-4 pt-3">
+									<div class="h5"><span class="arrow">&#9658;</span>Business Technology Analyst <span class="text-muted h6">at Deloitte Consulting | India</span></div>
+									<div class="text-muted text-small mb-3">December 2017 - March 2021</div>
+									►	Designed Extract, Transform and Load (ETL) pipelines, integrating legacy ERP systems and delivering 45 interfaces within budget and on time.<br>
+									►	Spearheaded project management office (PMO) activities overseeing 80+ interfaces and sending status reports to leadership, ensuring 90% on-time project completion and precise scope delivery.<br>
+									►	Streamlined software development lifecycle (SDLC) through effective planning, requirement analysis, development, and testing (SIT & UAT), reducing time-to-market by 20% and ensuring timely project go-live.<br>
+									►	Developed statistical model to analyze data, enhancing data insights by 40% and supporting strategic planning. 
+								</div> -->
+								</div>
+							</div>
+						  </div>
+						  <div class="work-experience-section">
+							<h2 class="h2 fw-light mb-4">Education</h2>
+							<div class="timeline">
+							  <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+								<div class="timeline-head px-4 pt-3">
+								  <div class="h5"><span class="arrow">&#9658;</span>Master of Science, Business Analytics <span class="text-muted h6">The University of Texas at Dallas</span></div>
+								  <div class="text-muted text-small mb-3">August 2022 - May 2024</div>
+								  <b>Coursework:</b> Database Foundation, Advanced Stats for Data Science, Business Analytics with R, Predictive Analytics, Programming for Data 
+								  Science, Big Data, Prescriptive Analytics, Applied Econometrics, Applied Machine Learning, NLP, Project Management, AWS Cloud Comp.
+								</div>
 
+								<div class="timeline-head px-4 pt-3">
+									<div class="h5"><span class="arrow">&#9658;</span>Bachelor of Business Administration, Accounting and Finance <span class="text-muted h6">BML Munjal University</span></div>
+									<div class="text-muted text-small mb-3">May 2020</div>
+								</div>
+							  </div>
+						  </div>
+						</div>
 
-					</ul>
-				</section>
+						<div class="work-experience-section">
+							<h2 class="h2 fw-light mb-4">Languages and Tools</h2>
+							<div class="timeline">
+							  <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+								<div class="timeline-head px-4 pt-3">
+								  <!-- <div class="h5"><span class="arrow">&#9658;</span>Vice President <span class="text-muted h6">at UTD ITM Student Leadership Council | TX, USA</span></div>
+								  <div class="text-muted text-small mb-3">January 2023 - Present</div> -->
+								  ►  Python, R, Matlab, GIT, SQL, R, HTML<br>
+								  ►  PowerBI, Docker, Pyspark, Cloud Computing, Hadoop, Hive, Impala<br>
+								  ►  TensorFlow, Pytorch, Keras, Sci-kit Learn, MatplotLib, Seaborn, Numpy, Pandas, Pytorch Geometric, Sci-Py, BERT, NLTK, SpaCy<br>
+								</div>
+							  </div>
+						  </div>
+						</div>
 
-			</ul>
-		</section>
-		<section class="post">
-				<h2>CERTIFICATIONS</h2>
-				<ul>
-				<a href="https://aws.amazon.com/verification">AWS Certified Cloud Practitioner</a>
-            	<p>Validation Number: 1B23W4WDSMV41X3Z</p>	
-				<a href="https://coursera.org/verify/professional-cert/WLVRNVN4JGUE">Google Data Analytics Professional</a></p>
-				<a href="https://www.theforage.com/"> BCG Data Science and Advanced Analytics</a>
-            	<p>User Verification Code: BojzWSwGav5fmg72j</p>
-			
-			</ul>
-		</section>	
+						  <div class="work-experience-section">
+							<h2 class="h2 fw-light mb-4">CERTIFICATIONS</h2>
+							<div class="timeline">
+							  <div class="timeline-card timeline-card-info" data-aos="fade-in" data-aos-delay="0">
+								<div class="timeline-head px-4 pt-3">
+								  <!-- <div class="h5"><span class="arrow">&#9658;</span>Vice President <span class="text-muted h6">at UTD ITM Student Leadership Council | TX, USA</span></div>
+								  <div class="text-muted text-small mb-3">January 2023 - Present</div> -->
+								  <a href="https://aws.amazon.com/verification">AWS Certified Cloud Practitioner</a>
+            					  <p>Validation Number: 1B23W4WDSMV41X3Z</p>
+								  <a href="https://aws.amazon.com/verification">AWS Certified Solutions Architect - Associate</a>
+            					  <p>Validation Number: 4bbc5996299847aa8be0249ba570a51f</p>	
+								  <a href="https://coursera.org/verify/professional-cert/WLVRNVN4JGUE">Google Data Analytics Professional</a></p>
+								  <a href="https://www.theforage.com/"> BCG Data Science and Advanced Analytics</a>
+            					  <p>User Verification Code: BojzWSwGav5fmg72j</p>
+								</div>
+							  </div>
+						  </div>
+						</div>
 
-			<!-- Footer -->
+					</div>
+
+					<!-- Footer -->
 			<footer>
 				<center>
 
@@ -112,14 +203,13 @@
 					
 				</section>
 			</center>
-			</footer>
+			</footer>	
 
-	</div>
-
+					</div>				
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li> Manikanta</li><li> <a href="#">MAKE THE DATA SHINE!</a></li></ul>
+						<ul><li>Manikanta</li><li> <a href="#">MAKE THE DATA SHINE!</a></li></ul>
 					</div>
 
 			</div>
